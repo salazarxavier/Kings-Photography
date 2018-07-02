@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Caveat" rel="stylesheet">
+
+    <title>Kings Photography</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <!--XS -> MD Navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top pt-3" id="navbar-md">
+            <a class="navbar-brand pt-2" href="main.html">Kings Photography</a>
+            <button class="navbar-toggler pt-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav pt-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- LG Navbar -->
+        <nav class="navbar fixed-top col-lg-3 p-0 h-100 float-left" id="navbar-lg">
+            <h1 class="mx-auto text-white pt-3 fixed-top" id="lg-title">Kings<br>Photography</h1>
+            <ul class="nav flex-column mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about"><h5>ABOUT</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#portfolio"><h5>PORTFOLIO</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact"><h5>CONTACT</h5></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <!--Main image-->
+            <div class="container-fluid" id="image">
+                <img src="img/example.jpeg" alt="" id="main-image" class="img-fluid">
+            </div>
+
+            <div class="row p-4" id="about">
+                <div class="col-12">
+                    <h1 class="text-center">About</h1>
+                    <h4 class="text-center">Kings Photography</h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem cuma deserunt excepturi iure laboriosam, perferendis unde velit vitae voluptatum? Atque debitis delectus dolore et eveniet explicabo iusto, nobis vero?</p>
+                </div>
+            </div>
+
+            <div class="row" id="portfolio">
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio1.jpg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio2.jpg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio3.jpeg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio4.jpeg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio5.jpeg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+                <div class="col-12 col-md-6 px-0 position-relative">
+                    <img src="img/portfolio6.jpeg" class="img-fluid images" alt="">
+                    <!--<h4 class="position-absolute center">Birds</h4>-->
+                </div>
+            </div>
+
+            <form action="">
+                <div class="form-group row px-5" id="contact">
+                    <h1 class="mx-auto pt-4">Contact Me</h1>
+                    <div class="col-12">
+                        <label for="f-name">First Name</label>
+                        <input type="text" class="form-control" id="f-name">
+                    </div>
+                    <div class="col-12 pt-3">
+                        <label for="l-name">Last Name</label>
+                        <input type="text" class="form-control" id="l-name">
+                    </div>
+                    <div class="col-12 pt-3 pb-2">
+                        <label for="questions">Questions</label>
+                        <textarea class="form-control" name="questions" id="questions" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-dark btn-lg btn-block mb-3 mx-auto" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

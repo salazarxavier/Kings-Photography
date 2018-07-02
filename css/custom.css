@@ -1,0 +1,136 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+a, p, label {
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    /*font-weight: 400;*/
+}
+
+.navbar-toggler {
+    border-style: none;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.images {
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 0;
+    border: solid black;
+    border-width: 0 0 2px 0;
+}
+
+.form-control:focus {
+    border: 1px solid black !important;
+    box-shadow: 0 0 2px black !important;
+}
+
+#main-image {
+    height: 100vh;
+    width: 100%;
+}
+
+#navbar-md {
+    background-color: #0d1416 !important;
+}
+
+#navbar-lg {
+    background-color: #0d1416;
+    height: 100%;
+}
+
+#lg-title {
+    font-family: 'Caveat', cursive;
+    left: 3rem;
+    top: 1rem;
+}
+
+#submit-btn {
+    width: 90%;
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+#submit-btn:hover {
+    background-color: #0d1416;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #navbar-lg {
+        display: none;
+    }
+
+    #navbar-md {
+        display: flex;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #navbar-lg {
+        display: none;
+    }
+
+    #navbar-md {
+        display: flex;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #navbar-md {
+        display: none;
+    }
+
+    #navbar-lg {
+        display: flex;
+    }
+
+    #content {
+        margin-left: 25%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
